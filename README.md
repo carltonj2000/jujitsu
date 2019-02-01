@@ -8,5 +8,7 @@ and website is
 Developed the diagram below using VSCode to preview and export the image via an
 [extension](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview).
 Installed on Mac via `brew installl graphviz`.
+Output generated via
+`dot -Tsvg jujitsu-moves.dot > jujitsu-moves.svg`.
 
 ![](./jujitsu-moves.svg)

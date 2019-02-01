@@ -11,6 +11,20 @@ digraph G {
         taken_down -> side_controled;
         taken_down -> in_guard;
         mounted [style=filled,color=red];
+        mounted -> halfguardd -> halfguard;
+        halfguard [label="half guard",style=filled, color=red];
+        halfguardd [
+            href="https://www.youtube.com/watch?v=q2OAJF__P2w", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>bridge to side 45</td></tr>
+            <tr><td>far leg reaches over and traps leg</td></tr>
+            <tr><td>lift leg and push down to half guard</td></tr>
+            </table> >
+        ];        
         side_controled [style=filled,color=red];
         in_guard [style=filled,color=red];
         take_down -> mount;
