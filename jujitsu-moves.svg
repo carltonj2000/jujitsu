@@ -115,33 +115,34 @@
 <path fill="none" stroke="#000000" d="M439.8516,-251.1996C470.5833,-239.1084 515.3707,-221.4872 547.6477,-208.788"/>
 <polygon fill="#000000" stroke="#000000" points="549.2095,-211.9348 557.2337,-205.0165 546.6466,-205.4208 549.2095,-211.9348"/>
 </g>
-<!-- halfguard -->
-<g id="node7" class="node">
-<title>halfguard</title>
-<ellipse fill="#ff0000" stroke="#ff0000" cx="376" cy="-120.9117" rx="46.4045" ry="18"/>
-<text text-anchor="middle" x="376" y="-116.7117" font-family="Times,serif" font-size="14.00" fill="#000000">half guard</text>
-</g>
-<!-- mounted&#45;&gt;halfguard -->
-<g id="edge6" class="edge">
-<title>mounted&#45;&gt;halfguard</title>
-<path fill="none" stroke="#000000" d="M352.6629,-175.1139C356.1654,-166.9792 360.3923,-157.1618 364.2811,-148.1298"/>
-<polygon fill="#000000" stroke="#000000" points="367.5778,-149.3232 368.3178,-138.7542 361.1485,-146.555 367.5778,-149.3232"/>
-</g>
 <!-- halfguardd -->
-<g id="node8" class="node">
+<g id="node7" class="node">
 <title>halfguardd</title>
-<g id="a_node8"><a xlink:href="http://carltonjoseph.com" xlink:title="&lt;TABLE&gt;">
-<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="434.5,-59.4558 361.5,-59.4558 361.5,-23.4558 434.5,-23.4558 434.5,-59.4558"/>
-<text text-anchor="start" x="371.7266" y="-45.0558" font-family="Times,serif" font-size="8.00" fill="#000000">bridge to side 45</text>
-<text text-anchor="start" x="371.7266" y="-33.0558" font-family="Times,serif" font-size="8.00" fill="#000000">bridge to side 45</text>
+<g id="a_node7"><a xlink:href="https://www.youtube.com/watch?v=q2OAJF__P2w" xlink:title="&lt;TABLE&gt;">
+<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="455,-138.9117 325,-138.9117 325,-102.9117 455,-102.9117 455,-138.9117"/>
+<text text-anchor="start" x="363.2266" y="-126.5117" font-family="Times,serif" font-size="8.00" fill="#000000">bridge to side 45</text>
+<text text-anchor="start" x="337.1387" y="-118.5117" font-family="Times,serif" font-size="8.00" fill="#000000">far leg reaches over and traps leg</text>
+<text text-anchor="start" x="332.7891" y="-110.5117" font-family="Times,serif" font-size="8.00" fill="#000000">lift leg and push down to half guard</text>
 </a>
 </g>
 </g>
-<!-- halfguard&#45;&gt;halfguardd -->
+<!-- mounted&#45;&gt;halfguardd -->
+<g id="edge6" class="edge">
+<title>mounted&#45;&gt;halfguardd</title>
+<path fill="none" stroke="#000000" d="M355.8932,-175.4825C361.1366,-167.0931 367.538,-156.8509 373.3728,-147.5152"/>
+<polygon fill="#000000" stroke="#000000" points="376.4051,-149.2673 378.7371,-138.9323 370.4691,-145.5573 376.4051,-149.2673"/>
+</g>
+<!-- halfguard -->
+<g id="node8" class="node">
+<title>halfguard</title>
+<ellipse fill="#ff0000" stroke="#ff0000" cx="407" cy="-41.4558" rx="46.4045" ry="18"/>
+<text text-anchor="middle" x="407" y="-37.2558" font-family="Times,serif" font-size="14.00" fill="#000000">half guard</text>
+</g>
+<!-- halfguardd&#45;&gt;halfguard -->
 <g id="edge7" class="edge">
-<title>halfguard&#45;&gt;halfguardd</title>
-<path fill="none" stroke="#000000" d="M380.9921,-102.8819C383.7293,-92.9963 387.1824,-80.525 390.2609,-69.4067"/>
-<polygon fill="#000000" stroke="#000000" points="393.656,-70.2607 392.9515,-59.6893 386.9099,-68.3927 393.656,-70.2607"/>
+<title>halfguardd&#45;&gt;halfguard</title>
+<path fill="none" stroke="#000000" d="M393.8576,-102.8819C395.9659,-93.0278 398.624,-80.6044 400.997,-69.5129"/>
+<polygon fill="#000000" stroke="#000000" points="404.488,-69.9252 403.1577,-59.4143 397.6429,-68.4606 404.488,-69.9252"/>
 </g>
 <!-- armbar -->
 <g id="node12" class="node">
