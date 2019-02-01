@@ -1,0 +1,29 @@
+digraph G {
+    subgraph cluster0 {
+        style=filled;
+        color=pink;
+        standing [style=filled,color=gray];
+        standing -> take_down;
+        standing-> taken_down;
+        take_down [style=filled,color=lightblue];
+        taken_down [style=filled,color=red];
+        taken_down -> mounted;
+        taken_down -> side_controled;
+        taken_down -> in_guard;
+        mounted [style=filled,color=red];
+        side_controled [style=filled,color=red];
+        in_guard [style=filled,color=red];
+        take_down -> mount;
+        take_down -> side_control;
+        take_down -> guard;
+        mount [style=filled,color=lightblue];
+        side_control [style=filled,color=lightblue];
+        guard [style=filled,color=lightblue];
+        guard -> armbar;
+        armbar [style=filled,color=lightblue];
+        armbar -> ltr;
+        ltr [label=<bicept split with<br/> arm leg triangled>];
+        armbar -> choke
+        choke [label=<lapel choke<br/> head above leg>];
+    }
+}
