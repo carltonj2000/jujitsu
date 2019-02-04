@@ -13,26 +13,44 @@
 <title>cluster0</title>
 <polygon fill="#ffc0cb" stroke="#ffc0cb" points="8,-8 8,-362.9117 638,-362.9117 638,-8 8,-8"/>
 </g>
-<!-- standing -->
+<!-- sweepsummary -->
 <g id="node1" class="node">
+<title>sweepsummary</title>
+<g id="a_node1"><a xlink:href="https://www.youtube.com/watch?v=cxc6uoaso7Q" xlink:title="&lt;TABLE&gt;">
+<polygon fill="none" stroke="#ffa500" points="613.5,-354.9117 526.5,-354.9117 526.5,-318.9117 613.5,-318.9117 613.5,-354.9117"/>
+<text text-anchor="start" x="534.5308" y="-333.9117" font-family="Times,serif" font-size="10.00" fill="#000000">Sweeps Summary</text>
+</a>
+</g>
+</g>
+<!-- omoplata -->
+<g id="node2" class="node">
+<title>omoplata</title>
+<g id="a_node2"><a xlink:href="https://www.youtube.com/watch?v=tfvEGtSCIRI" xlink:title="&lt;TABLE&gt;">
+<polygon fill="none" stroke="#ffa500" points="445.5,-354.9117 386.5,-354.9117 386.5,-318.9117 445.5,-318.9117 445.5,-354.9117"/>
+<text text-anchor="start" x="394.8374" y="-333.9117" font-family="Times,serif" font-size="10.00" fill="#000000">Omoplatas</text>
+</a>
+</g>
+</g>
+<!-- standing -->
+<g id="node3" class="node">
 <title>standing</title>
-<ellipse fill="#c0c0c0" stroke="#c0c0c0" cx="330" cy="-336.9117" rx="40.149" ry="18"/>
-<text text-anchor="middle" x="330" y="-332.7117" font-family="Times,serif" font-size="14.00" fill="#000000">standing</text>
+<ellipse fill="#c0c0c0" stroke="#c0c0c0" cx="202" cy="-336.9117" rx="40.149" ry="18"/>
+<text text-anchor="middle" x="202" y="-332.7117" font-family="Times,serif" font-size="14.00" fill="#000000">standing</text>
 </g>
 <!-- take_down -->
-<g id="node2" class="node">
+<g id="node4" class="node">
 <title>take_down</title>
-<ellipse fill="#add8e6" stroke="#add8e6" cx="205" cy="-264.9117" rx="48.8187" ry="18"/>
-<text text-anchor="middle" x="205" y="-260.7117" font-family="Times,serif" font-size="14.00" fill="#000000">take_down</text>
+<ellipse fill="#add8e6" stroke="#add8e6" cx="170" cy="-264.9117" rx="48.8187" ry="18"/>
+<text text-anchor="middle" x="170" y="-260.7117" font-family="Times,serif" font-size="14.00" fill="#000000">take_down</text>
 </g>
 <!-- standing&#45;&gt;take_down -->
 <g id="edge1" class="edge">
 <title>standing&#45;&gt;take_down</title>
-<path fill="none" stroke="#000000" d="M305.304,-322.6868C286.7105,-311.9769 260.9668,-297.1486 240.2158,-285.196"/>
-<polygon fill="#000000" stroke="#000000" points="241.7831,-282.0597 231.3709,-280.1013 238.2892,-288.1254 241.7831,-282.0597"/>
+<path fill="none" stroke="#000000" d="M194.0899,-319.1139C190.4745,-310.9792 186.1112,-301.1618 182.0969,-292.1298"/>
+<polygon fill="#000000" stroke="#000000" points="185.1898,-290.4709 177.93,-282.7542 178.7931,-293.3139 185.1898,-290.4709"/>
 </g>
 <!-- taken_down -->
-<g id="node3" class="node">
+<g id="node5" class="node">
 <title>taken_down</title>
 <ellipse fill="#ff0000" stroke="#ff0000" cx="405" cy="-264.9117" rx="53.1625" ry="18"/>
 <text text-anchor="middle" x="405" y="-260.7117" font-family="Times,serif" font-size="14.00" fill="#000000">taken_down</text>
@@ -40,11 +58,11 @@
 <!-- standing&#45;&gt;taken_down -->
 <g id="edge2" class="edge">
 <title>standing&#45;&gt;taken_down</title>
-<path fill="none" stroke="#000000" d="M347.0187,-320.5738C356.6869,-311.2923 368.9752,-299.4955 379.7485,-289.1532"/>
-<polygon fill="#000000" stroke="#000000" points="382.4761,-291.3864 387.2661,-281.9362 377.6284,-286.3367 382.4761,-291.3864"/>
+<path fill="none" stroke="#000000" d="M233.7188,-325.6617C267.0894,-313.8258 319.9647,-295.072 358.1439,-281.5306"/>
+<polygon fill="#000000" stroke="#000000" points="359.748,-284.6754 368.0027,-278.0339 357.408,-278.078 359.748,-284.6754"/>
 </g>
 <!-- mount -->
-<g id="node9" class="node">
+<g id="node11" class="node">
 <title>mount</title>
 <ellipse fill="#add8e6" stroke="#add8e6" cx="49" cy="-192.9117" rx="32.9168" ry="18"/>
 <text text-anchor="middle" x="49" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">mount</text>
@@ -52,11 +70,11 @@
 <!-- take_down&#45;&gt;mount -->
 <g id="edge8" class="edge">
 <title>take_down&#45;&gt;mount</title>
-<path fill="none" stroke="#000000" d="M174.1794,-250.6868C147.9675,-238.589 110.3693,-221.236 83.2277,-208.7091"/>
-<polygon fill="#000000" stroke="#000000" points="84.6456,-205.5088 74.0993,-204.496 81.7122,-211.8645 84.6456,-205.5088"/>
+<path fill="none" stroke="#000000" d="M144.0425,-249.4659C125.2543,-238.2862 99.7824,-223.1293 79.9372,-211.3206"/>
+<polygon fill="#000000" stroke="#000000" points="81.6428,-208.2628 71.2593,-206.1569 78.0632,-214.2783 81.6428,-208.2628"/>
 </g>
 <!-- side_control -->
-<g id="node10" class="node">
+<g id="node12" class="node">
 <title>side_control</title>
 <ellipse fill="#add8e6" stroke="#add8e6" cx="154" cy="-192.9117" rx="53.6471" ry="18"/>
 <text text-anchor="middle" x="154" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">side_control</text>
@@ -64,11 +82,11 @@
 <!-- take_down&#45;&gt;side_control -->
 <g id="edge9" class="edge">
 <title>take_down&#45;&gt;side_control</title>
-<path fill="none" stroke="#000000" d="M192.6543,-247.4825C186.5603,-238.8792 179.0861,-228.3273 172.3395,-218.8028"/>
-<polygon fill="#000000" stroke="#000000" points="175.0451,-216.5671 166.4088,-210.4299 169.3329,-220.6133 175.0451,-216.5671"/>
+<path fill="none" stroke="#000000" d="M165.9625,-246.743C164.2513,-239.0426 162.2165,-229.886 160.3148,-221.3283"/>
+<polygon fill="#000000" stroke="#000000" points="163.6779,-220.3275 158.0918,-211.325 156.8446,-221.8461 163.6779,-220.3275"/>
 </g>
 <!-- guard -->
-<g id="node11" class="node">
+<g id="node13" class="node">
 <title>guard</title>
 <ellipse fill="#add8e6" stroke="#add8e6" cx="256" cy="-192.9117" rx="30.4862" ry="18"/>
 <text text-anchor="middle" x="256" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">guard</text>
@@ -76,11 +94,11 @@
 <!-- take_down&#45;&gt;guard -->
 <g id="edge10" class="edge">
 <title>take_down&#45;&gt;guard</title>
-<path fill="none" stroke="#000000" d="M217.3457,-247.4825C223.6387,-238.5983 231.4035,-227.6361 238.319,-217.8731"/>
-<polygon fill="#000000" stroke="#000000" points="241.1951,-219.8679 244.1192,-209.6846 235.4829,-215.8218 241.1951,-219.8679"/>
+<path fill="none" stroke="#000000" d="M189.9463,-248.2125C202.0271,-238.0983 217.5548,-225.0984 230.5195,-214.2442"/>
+<polygon fill="#000000" stroke="#000000" points="232.786,-216.9114 238.2068,-207.8083 228.2924,-211.544 232.786,-216.9114"/>
 </g>
 <!-- mounted -->
-<g id="node4" class="node">
+<g id="node6" class="node">
 <title>mounted</title>
 <ellipse fill="#ff0000" stroke="#ff0000" cx="345" cy="-192.9117" rx="41.1093" ry="18"/>
 <text text-anchor="middle" x="345" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">mounted</text>
@@ -92,7 +110,7 @@
 <polygon fill="#000000" stroke="#000000" points="368.4812,-215.622 359.3906,-210.1804 363.1037,-220.1033 368.4812,-215.622"/>
 </g>
 <!-- side_controled -->
-<g id="node5" class="node">
+<g id="node7" class="node">
 <title>side_controled</title>
 <ellipse fill="#ff0000" stroke="#ff0000" cx="466" cy="-192.9117" rx="62.3407" ry="18"/>
 <text text-anchor="middle" x="466" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">side_controled</text>
@@ -104,7 +122,7 @@
 <polygon fill="#000000" stroke="#000000" points="447.3644,-220.3223 451.1582,-210.4299 442.0235,-215.7973 447.3644,-220.3223"/>
 </g>
 <!-- in_guard -->
-<g id="node6" class="node">
+<g id="node8" class="node">
 <title>in_guard</title>
 <ellipse fill="#ff0000" stroke="#ff0000" cx="588" cy="-192.9117" rx="41.5852" ry="18"/>
 <text text-anchor="middle" x="588" y="-188.7117" font-family="Times,serif" font-size="14.00" fill="#000000">in_guard</text>
@@ -116,24 +134,24 @@
 <polygon fill="#000000" stroke="#000000" points="549.2095,-211.9348 557.2337,-205.0165 546.6466,-205.4208 549.2095,-211.9348"/>
 </g>
 <!-- halfguardd -->
-<g id="node7" class="node">
+<g id="node9" class="node">
 <title>halfguardd</title>
-<g id="a_node7"><a xlink:href="https://www.youtube.com/watch?v=q2OAJF__P2w" xlink:title="&lt;TABLE&gt;">
-<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="546,-138.9117 416,-138.9117 416,-102.9117 546,-102.9117 546,-138.9117"/>
-<text text-anchor="start" x="454.2266" y="-126.5117" font-family="Times,serif" font-size="8.00" fill="#000000">bridge to side 45</text>
-<text text-anchor="start" x="428.1387" y="-118.5117" font-family="Times,serif" font-size="8.00" fill="#000000">far leg reaches over and traps leg</text>
-<text text-anchor="start" x="423.7891" y="-110.5117" font-family="Times,serif" font-size="8.00" fill="#000000">lift leg and push down to half guard</text>
+<g id="a_node9"><a xlink:href="https://www.youtube.com/watch?v=q2OAJF__P2w" xlink:title="&lt;TABLE&gt;">
+<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="551,-138.9117 421,-138.9117 421,-102.9117 551,-102.9117 551,-138.9117"/>
+<text text-anchor="start" x="459.2266" y="-126.5117" font-family="Times,serif" font-size="8.00" fill="#000000">bridge to side 45</text>
+<text text-anchor="start" x="433.1387" y="-118.5117" font-family="Times,serif" font-size="8.00" fill="#000000">far leg reaches over and traps leg</text>
+<text text-anchor="start" x="428.7891" y="-110.5117" font-family="Times,serif" font-size="8.00" fill="#000000">lift leg and push down to half guard</text>
 </a>
 </g>
 </g>
 <!-- mounted&#45;&gt;halfguardd -->
 <g id="edge6" class="edge">
 <title>mounted&#45;&gt;halfguardd</title>
-<path fill="none" stroke="#000000" d="M371.2222,-179.0294C390.0656,-169.0534 415.8971,-155.378 437.7687,-143.7988"/>
-<polygon fill="#000000" stroke="#000000" points="439.6677,-146.7538 446.868,-138.9816 436.3924,-140.5673 439.6677,-146.7538"/>
+<path fill="none" stroke="#000000" d="M371.8529,-179.1996C391.5163,-169.1587 418.6482,-155.3041 441.5263,-143.6217"/>
+<polygon fill="#000000" stroke="#000000" points="443.3953,-146.5972 450.7097,-138.9323 440.2119,-140.363 443.3953,-146.5972"/>
 </g>
 <!-- halfguard -->
-<g id="node8" class="node">
+<g id="node10" class="node">
 <title>halfguard</title>
 <ellipse fill="#ff0000" stroke="#ff0000" cx="491" cy="-41.4558" rx="46.4045" ry="18"/>
 <text text-anchor="middle" x="491" y="-37.2558" font-family="Times,serif" font-size="14.00" fill="#000000">half guard</text>
@@ -141,75 +159,87 @@
 <!-- halfguardd&#45;&gt;halfguard -->
 <g id="edge7" class="edge">
 <title>halfguardd&#45;&gt;halfguard</title>
-<path fill="none" stroke="#000000" d="M483.2692,-102.8819C484.5006,-93.0972 486.0509,-80.7792 487.4393,-69.7474"/>
-<polygon fill="#000000" stroke="#000000" points="490.929,-70.0481 488.7052,-59.6893 483.9838,-69.1739 490.929,-70.0481"/>
+<path fill="none" stroke="#000000" d="M487.1346,-102.8819C487.7503,-93.0972 488.5255,-80.7792 489.2197,-69.7474"/>
+<polygon fill="#000000" stroke="#000000" points="492.7176,-69.8894 489.8526,-59.6893 485.7314,-69.4497 492.7176,-69.8894"/>
+</g>
+<!-- triangle -->
+<g id="node14" class="node">
+<title>triangle</title>
+<ellipse fill="#add8e6" stroke="#add8e6" cx="171" cy="-120.9117" rx="37.2334" ry="18"/>
+<text text-anchor="middle" x="171" y="-116.7117" font-family="Times,serif" font-size="14.00" fill="#000000">triangle</text>
+</g>
+<!-- guard&#45;&gt;triangle -->
+<g id="edge11" class="edge">
+<title>guard&#45;&gt;triangle</title>
+<path fill="none" stroke="#000000" d="M238.3879,-177.9932C226.5488,-167.9648 210.7312,-154.5664 197.3961,-143.2707"/>
+<polygon fill="#000000" stroke="#000000" points="199.3643,-140.351 189.4716,-136.5582 194.8398,-145.6923 199.3643,-140.351"/>
 </g>
 <!-- armbar -->
-<g id="node12" class="node">
+<g id="node15" class="node">
 <title>armbar</title>
-<ellipse fill="#add8e6" stroke="#add8e6" cx="256" cy="-120.9117" rx="35.2956" ry="18"/>
-<text text-anchor="middle" x="256" y="-116.7117" font-family="Times,serif" font-size="14.00" fill="#000000">armbar</text>
+<ellipse fill="#add8e6" stroke="#add8e6" cx="261" cy="-120.9117" rx="35.2956" ry="18"/>
+<text text-anchor="middle" x="261" y="-116.7117" font-family="Times,serif" font-size="14.00" fill="#000000">armbar</text>
 </g>
 <!-- guard&#45;&gt;armbar -->
-<g id="edge11" class="edge">
+<g id="edge12" class="edge">
 <title>guard&#45;&gt;armbar</title>
-<path fill="none" stroke="#000000" d="M256,-174.743C256,-167.0426 256,-157.886 256,-149.3283"/>
-<polygon fill="#000000" stroke="#000000" points="259.5001,-149.3249 256,-139.325 252.5001,-149.325 259.5001,-149.3249"/>
+<path fill="none" stroke="#000000" d="M257.2617,-174.743C257.7965,-167.0426 258.4323,-157.886 259.0266,-149.3283"/>
+<polygon fill="#000000" stroke="#000000" points="262.52,-149.5434 259.7213,-139.325 255.5368,-149.0584 262.52,-149.5434"/>
 </g>
 <!-- sweepSissor -->
-<g id="node13" class="node">
+<g id="node16" class="node">
 <title>sweepSissor</title>
-<g id="a_node13"><a xlink:href="https://www.youtube.com/watch?v=HHs1ftjayUw" xlink:title="&lt;TABLE&gt;">
-<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="388.5,-138.9117 327.5,-138.9117 327.5,-102.9117 388.5,-102.9117 388.5,-138.9117"/>
-<text text-anchor="start" x="338.3906" y="-126.5117" font-family="Times,serif" font-size="8.00" fill="#000000">sissor sweep</text>
-<text text-anchor="start" x="337.2852" y="-118.5117" font-family="Times,serif" font-size="8.00" fill="#000000">xande Sweep</text>
-<text text-anchor="start" x="335.5039" y="-110.5117" font-family="Times,serif" font-size="8.00" fill="#000000">Flower Sweep</text>
+<g id="a_node16"><a xlink:href="https://www.youtube.com/watch?v=HHs1ftjayUw" xlink:title="&lt;TABLE&gt;">
+<polygon fill="none" stroke="#0000ff" stroke-dasharray="1,5" points="393.5,-138.9117 332.5,-138.9117 332.5,-102.9117 393.5,-102.9117 393.5,-138.9117"/>
+<text text-anchor="start" x="343.3906" y="-126.5117" font-family="Times,serif" font-size="8.00" fill="#000000">sissor sweep</text>
+<text text-anchor="start" x="342.2852" y="-118.5117" font-family="Times,serif" font-size="8.00" fill="#000000">xande Sweep</text>
+<text text-anchor="start" x="340.5039" y="-110.5117" font-family="Times,serif" font-size="8.00" fill="#000000">Flower Sweep</text>
 </a>
 </g>
 </g>
 <!-- guard&#45;&gt;sweepSissor -->
-<g id="edge12" class="edge">
+<g id="edge13" class="edge">
 <title>guard&#45;&gt;sweepSissor</title>
-<path fill="none" stroke="#000000" d="M275.6666,-179.0294C289.2456,-169.4442 307.6631,-156.4436 323.6357,-145.1688"/>
-<polygon fill="#000000" stroke="#000000" points="326.0604,-147.7415 332.2117,-139.1152 322.0236,-142.0227 326.0604,-147.7415"/>
+<path fill="none" stroke="#000000" d="M276.1259,-179.369C290.5603,-169.6561 310.3914,-156.3119 327.4622,-144.825"/>
+<polygon fill="#000000" stroke="#000000" points="329.7517,-147.503 336.0944,-139.0164 325.8438,-141.6954 329.7517,-147.503"/>
 </g>
 <!-- ltr -->
-<g id="node15" class="node">
+<g id="node18" class="node">
 <title>ltr</title>
 <ellipse fill="none" stroke="#000000" cx="97" cy="-41.4558" rx="81.3156" ry="25.4118"/>
 <text text-anchor="start" x="51.8931" y="-44.2558" font-family="Times,serif" font-size="14.00" fill="#000000">bicept split with</text>
 <text text-anchor="start" x="47.436" y="-30.2558" font-family="Times,serif" font-size="14.00" fill="#000000"> arm leg triangled</text>
 </g>
 <!-- armbar&#45;&gt;ltr -->
-<g id="edge14" class="edge">
+<g id="edge15" class="edge">
 <title>armbar&#45;&gt;ltr</title>
-<path fill="none" stroke="#000000" d="M230.806,-108.3217C209.0137,-97.4316 176.7932,-81.3303 149.4307,-67.6567"/>
-<polygon fill="#000000" stroke="#000000" points="150.8695,-64.463 140.3596,-63.1236 147.7403,-70.7247 150.8695,-64.463"/>
+<path fill="none" stroke="#000000" d="M235.375,-108.4967C212.695,-97.5086 178.8631,-81.1175 150.3298,-67.2934"/>
+<polygon fill="#000000" stroke="#000000" points="151.7982,-64.1157 141.2727,-62.9054 148.7461,-70.4153 151.7982,-64.1157"/>
 </g>
 <!-- choke -->
-<g id="node16" class="node">
+<g id="node19" class="node">
 <title>choke</title>
 <ellipse fill="none" stroke="#000000" cx="270" cy="-41.4558" rx="73.3134" ry="25.4118"/>
 <text text-anchor="start" x="237.9326" y="-44.2558" font-family="Times,serif" font-size="14.00" fill="#000000">lapel choke</text>
 <text text-anchor="start" x="226.2705" y="-30.2558" font-family="Times,serif" font-size="14.00" fill="#000000"> head above leg</text>
 </g>
 <!-- armbar&#45;&gt;choke -->
-<g id="edge15" class="edge">
+<g id="edge16" class="edge">
 <title>armbar&#45;&gt;choke</title>
-<path fill="none" stroke="#000000" d="M259.1768,-102.8819C260.5367,-95.164 262.1743,-85.8701 263.7593,-76.8744"/>
-<polygon fill="#000000" stroke="#000000" points="267.2205,-77.4002 265.5089,-66.9445 260.3267,-76.1855 267.2205,-77.4002"/>
+<path fill="none" stroke="#000000" d="M263.0422,-102.8819C263.9071,-95.247 264.9466,-86.0697 265.9552,-77.1646"/>
+<polygon fill="#000000" stroke="#000000" points="269.4651,-77.275 267.1129,-66.9445 262.5095,-76.4871 269.4651,-77.275"/>
 </g>
 <!-- mounte1 -->
-<g id="node14" class="node">
+<g id="node17" class="node">
 <title>mounte1</title>
 <ellipse fill="none" stroke="#00ff00" stroke-dasharray="1,5" cx="394" cy="-41.4558" rx="32.9168" ry="18"/>
 <text text-anchor="middle" x="394" y="-37.2558" font-family="Times,serif" font-size="14.00" fill="#000000">mount</text>
 </g>
 <!-- sweepSissor&#45;&gt;mounte1 -->
-<g id="edge13" class="edge">
+<g id="edge14" class="edge">
 <title>sweepSissor&#45;&gt;mounte1</title>
-<path fill="none" stroke="#000000" d="M366.169,-102.8819C370.7578,-92.7538 376.5764,-79.9115 381.7056,-68.5909"/>
-<polygon fill="#000000" stroke="#000000" points="385.0484,-69.6937 385.9874,-59.1406 378.6723,-66.8048 385.0484,-69.6937"/>
+<path fill="none" stroke="#000000" d="M370.0344,-102.8819C373.9859,-92.7538 378.9964,-79.9115 383.4132,-68.5909"/>
+<polygon fill="#000000" stroke="#000000" points="386.7261,-69.7288 387.1002,-59.1406 380.2049,-67.1845 386.7261,-69.7288"/>
 </g>
 </g>
 </svg>

@@ -10,6 +10,16 @@ digraph G {
             </table> >
         ];  
 
+        omoplata [
+            href="https://www.youtube.com/watch?v=tfvEGtSCIRI", 
+            shape=box,
+            color=orange,
+            fontsize=10, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>Omoplatas</td></tr>
+            </table> >
+        ];  
+
         style=filled;
         color=pink;
         standing [style=filled,color=gray];
