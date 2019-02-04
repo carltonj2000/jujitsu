@@ -35,6 +35,20 @@ digraph G {
         guard [style=filled,color=lightblue];
         guard -> armbar;
         armbar [style=filled,color=lightblue];
+        guard -> sweepSissor -> mounte1;
+        sweepSissor [
+            href="https://www.youtube.com/watch?v=HHs1ftjayUw", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>sissor sweep</td></tr>
+            <tr><td>xande Sweep</td></tr>
+            <tr><td>Flower Sweep</td></tr>
+            </table> >
+        ];
+        mounte1 [style=dotted,color=green, label=mount];
         armbar -> ltr;
         ltr [label=<bicept split with<br/> arm leg triangled>];
         armbar -> choke
