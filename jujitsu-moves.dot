@@ -1,5 +1,15 @@
 digraph G {
     subgraph cluster0 {
+        sweepsummary [
+            href="https://www.youtube.com/watch?v=cxc6uoaso7Q", 
+            shape=box,
+            color=orange,
+            fontsize=10, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>Sweeps Summary</td></tr>
+            </table> >
+        ];  
+
         style=filled;
         color=pink;
         standing [style=filled,color=gray];
@@ -33,6 +43,8 @@ digraph G {
         mount [style=filled,color=lightblue];
         side_control [style=filled,color=lightblue];
         guard [style=filled,color=lightblue];
+        guard -> triangle;
+        triangle [style=filled,color=lightblue];
         guard -> armbar;
         armbar [style=filled,color=lightblue];
         guard -> sweepSissor -> mounte1;
