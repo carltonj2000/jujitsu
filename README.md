@@ -13,7 +13,7 @@ Generate outputs are generated via:
 - `npm run dev`, or
 - `yarn dev`
 
-Note to manually convert the dot file use
-`dot -Tsvg ./src/jujitsu-moves.dot > ./docs/jujitsu-moves.svg`
+Manually command to convert dot files is
+`dot -Tsvg jujitsu-moves.dot -o jujitsu-moves.svg`.
 
-![](./docs/jujitsu-moves.svg)
+<a href="./docs/jujitsu-moves.svg">![](./docs/jujitsu-moves.svg)<a>
