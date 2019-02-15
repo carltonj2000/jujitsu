@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules/**/node_module", "utils"],
+  "execMap": {
+    "sh": "bash"
+  },
+  "watch": ["*.dot"],
+  "ext": "dot"
+}

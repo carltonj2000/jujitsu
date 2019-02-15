@@ -10,7 +10,7 @@ digraph G {
             </table> >
         ];  
 
-        omoplata [
+        omoplata1 [
             href="https://www.youtube.com/watch?v=tfvEGtSCIRI", 
             shape=box,
             color=orange,

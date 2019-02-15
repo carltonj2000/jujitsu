@@ -8,7 +8,12 @@ and website is
 Developed the diagram below using VSCode to preview and export the image via an
 [extension](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview).
 Installed on Mac via `brew installl graphviz`.
-Output generated via
-`dot -Tsvg jujitsu-moves.dot > jujitsu-moves.svg` or just type in `make`.
+Generate outputs are generated via:
 
-![](./jujitsu-moves.svg)
+- `npm run dev`, or
+- `yarn dev`
+
+Note to manually convert the dot file use
+`dot -Tsvg ./src/jujitsu-moves.dot > ./docs/jujitsu-moves.svg`
+
+![](./docs/jujitsu-moves.svg)

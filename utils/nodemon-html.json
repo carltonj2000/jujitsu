@@ -1,0 +1,6 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules/**/node_module"],
+  "watch": ["README.md", "template.html", "utils/md2html.js"],
+  "ext": "md,html,js"
+}

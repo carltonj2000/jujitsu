@@ -1,0 +1,9 @@
+{
+  "verbose": true,
+  "ignore": [".git", "node_modules/**/node_module"],
+  "execMap": {
+    "sh": "bash"
+  },
+  "watch": ["jujitsu-moves.dot", "utils/process-dot.sh"],
+  "ext": "dot,sh"
+}

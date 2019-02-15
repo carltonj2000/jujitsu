@@ -1,0 +1,1 @@
+/usr/local/bin/dot -Tsvg jujitsu-moves.dot -o ./docs/jujitsu-moves.svg
