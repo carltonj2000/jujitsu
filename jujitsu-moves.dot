@@ -30,7 +30,21 @@ digraph G {
         taken_down -> mounted;
         taken_down -> side_controled;
         taken_down -> in_guard;
-        mounted [style=filled,color=red];
+        taken_down -> knee_on_belly;
+        knee_on_belly [style=filled,color=red];
+       knee_on_belly -> knee_on_bellyd;
+        knee_on_bellyd [
+            href="https://www.youtube.com/watch?v=S_vtppaNxoc", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            <tr><td></td></tr>
+            </table> >
+        ];          mounted [style=filled,color=red];
         mounted -> halfguardd -> halfguard;
         halfguard [label="half guard",style=filled, color=red];
         halfguardd [
@@ -46,6 +60,19 @@ digraph G {
             </table> >
         ];        
         side_controled [style=filled,color=red];
+        side_controled -> side_controledd;
+        side_controledd [
+            href="https://www.youtube.com/watch?v=S_vtppaNxoc", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>wrist bone hip and neck, bridge make space, put knee in recover guard</td></tr>
+            <tr><td>trap far leg oponent going to mount and back to half gurad</td></tr>
+            <tr><td>push away, under hook, to knees and double leg</td></tr>
+            </table> >
+        ];  
         in_guard [style=filled,color=red];
         take_down -> mount;
         take_down -> side_control;
