@@ -2,12 +2,11 @@
 
 [Jujitsu moves](https://carltonj2000.github.io/jujitsu/)
 documented in Graphiz
-(
-[manula](https://www.graphviz.org/pdf/dotguide.pdf)
+([manual](https://www.graphviz.org/pdf/dotguide.pdf)
 and
 [website](https://www.graphviz.org/)).
-Installed on Mac via `brew installl graphviz`.
-Generate outputs are generated via:
+Mac installed via `brew installl graphviz`.
+Generate outputs via:
 
 - `npm run dev`, or
 - `yarn dev`
