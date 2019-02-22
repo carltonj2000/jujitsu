@@ -1,12 +1,11 @@
 # Jujitsu Moves
 
-Jujitsu moves documented in Graphiz.
-The manual is
-[here](https://www.graphviz.org/pdf/dotguide.pdf)
-and website is
-[here](https://www.graphviz.org/).
-Developed the diagram below using VSCode to preview and export the image via an
-[extension](https://marketplace.visualstudio.com/items?itemName=EFanZh.graphviz-preview).
+[Jujitsu moves](https://carltonj2000.github.io/jujitsu/)
+documented in Graphiz
+(
+[manula](https://www.graphviz.org/pdf/dotguide.pdf)
+and
+[website](https://www.graphviz.org/)).
 Installed on Mac via `brew installl graphviz`.
 Generate outputs are generated via:
 
