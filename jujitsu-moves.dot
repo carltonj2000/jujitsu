@@ -61,6 +61,7 @@ digraph G {
         ];        
         side_controled [style=filled,color=red];
         side_controled -> side_controledd;
+        side_controled -> side_controledd2;
         side_controledd [
             href="https://www.youtube.com/watch?v=S_vtppaNxoc", 
             shape=box,
@@ -70,10 +71,21 @@ digraph G {
             label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
             <tr><td>wrist bone hip and neck, bridge make space, put knee in recover guard</td></tr>
             <tr><td>trap far leg oponent going to mount and back to half gurad</td></tr>
-            <tr><td>push away, under hook, to knees and double leg</td></tr>
+            <tr><td>push away, head arm under hook, to knees and double leg</td></tr>
             </table> >
         ];  
-        in_guard [style=filled,color=red];
+       side_controledd2 [
+            href="https://www.youtube.com/watch?v=6ZKFobk8vOQ", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>push away, body arm under hook, control tricep</td></tr>
+            <tr><td>1 - spin under using tricep</td></tr>
+            <tr><td>2 - feet walks away from legs and sit up</td></tr>
+            </table> >
+        ];        in_guard [style=filled,color=red];
         take_down -> mount;
         take_down -> side_control;
         take_down -> guard;
