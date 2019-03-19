@@ -1,4 +1,5 @@
 digraph G {
+    graph [ rankdir = "LR" ];
     subgraph cluster0 {
         sweepsummary [
             href="https://www.youtube.com/watch?v=cxc6uoaso7Q", 
@@ -32,7 +33,7 @@ digraph G {
         taken_down -> in_guard;
         taken_down -> knee_on_belly;
         knee_on_belly [style=filled,color=red];
-       knee_on_belly -> knee_on_bellyd;
+        knee_on_belly -> knee_on_bellyd;
         knee_on_bellyd [
             href="https://www.youtube.com/watch?v=S_vtppaNxoc", 
             shape=box,
@@ -85,7 +86,8 @@ digraph G {
             <tr><td>1 - spin under using tricep</td></tr>
             <tr><td>2 - feet walks away from legs and sit up</td></tr>
             </table> >
-        ];        in_guard [style=filled,color=red];
+        ];        
+        in_guard [style=filled,color=red];
         take_down -> mount;
         take_down -> side_control;
         take_down -> guard;
@@ -96,7 +98,8 @@ digraph G {
         triangle [style=filled,color=lightblue];
         guard -> armbar;
         armbar [style=filled,color=lightblue];
-        guard -> sweepSissor -> mounte1;
+        guard -> sweepSissor;
+        guard -> sweep2;
         sweepSissor [
             href="https://www.youtube.com/watch?v=HHs1ftjayUw", 
             shape=box,
@@ -107,6 +110,31 @@ digraph G {
             <tr><td>sissor sweep</td></tr>
             <tr><td>xande Sweep</td></tr>
             <tr><td>Flower Sweep</td></tr>
+            </table> >
+        ];
+        sweep2 [
+            href="https://www.youtube.com/watch?v=qp5AXBHxQec", 
+            shape=box,
+            color=blue,
+            style=dotted,
+            fontsize=8, 
+            label=< <table border="0" cellspacing="0" cellborder="0" cellpadding="0">
+            <tr><td>Sweeps</td></tr>
+            <tr><td>1 - trap arm, hip out to untrapped arm side and insert leg and butterfly lift to trapped arm side </td></tr>
+            <tr><td>2 - hang on when he postures up, suport with one arm, reach over and </td></tr>
+            <tr><td>grab/trap arm on suport arm side, hip bump to trapped arm side</td></tr>
+            <tr><td>
+              3 - grap colar and same side arm, hip out other direction, opposite colar grab kneep in chest,
+            </td></tr>
+            <tr><td>
+             other knee to floor to sweep, make sure to grab arm, pull weight to head off oponent knees and sweep
+            </td></tr>
+            <tr><td>
+              4 - miss a armbar or triangle, pull oponent weight on inside lef hamstring,
+            </td></tr>
+            <tr><td>
+             underhook oponents near leg, kick free leg straigh and roll oponent
+            </td></tr>
             </table> >
         ];
         mounte1 [style=dotted,color=green, label=mount];
